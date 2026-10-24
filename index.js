@@ -33,13 +33,3 @@ for (const arquivo of fs.readdirSync(pastaEventos).filter(f => f.endsWith('.js')
 }
 
 client.login(process.env.TOKEN);
-
-
-
-
-
-
-
-
-
-
